@@ -99,7 +99,6 @@ def weather_fetch(city_name):
     else:
         return None
 
-
 def predict_image(img, model=disease_model):
     """
     Transforms image to tensor and predicts disease label
